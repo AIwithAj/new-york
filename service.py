@@ -20,7 +20,7 @@ class PredictionInput(BaseModel):
         store_and_fwd_flag: float
 
 
-# Load the pre-trained RandomForest model
+
 model_path = "model.joblib"
 model = load(model_path)
 
